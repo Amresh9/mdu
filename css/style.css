@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cen {
+  text-align: center;
+}
+#mdu {
+  background-color: rgb(71, 69, 67);
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.course-title {
+  color: darkorange;
+}
+strong {
+  color: blue;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.field {
+  margin: 1em;
+  padding: 1em;
+  /* width: max-content;
+  height: max-content; */
+  text-align: center;
+}
+a {
+  cursor: pointer;
+  color: rgb(4, 175, 255);
+  margin: 5px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: dimgray;
+}
+
+.icon-f,
+.icon-g,
+.icon-i {
+  font-size: 35px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.icon-i {
+  color: white;
+}
+
+.icon-g {
+  color: white;
+}
+
+.icon-f {
+  color: white;
+}
+
+.icon-i:hover {
+  color: rgb(255, 84, 84);
+}
+
+.icon-g:hover {
+  color: rgb(253, 114, 0);
+}
+.icon-f:hover {
+  color: rgb(21, 84, 255);
+}
+
+.con {
+  color: rgba(8, 255, 70, 0.699);
+}
+
+.note {
+  margin: 5px;
+}
